@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 d3e0045e0ca2fa0b07fe5c31d8cedb84d8e44763 Mateo <maormeno@uc.cl> 1667074308 -0300	branch: Created from HEAD
+d3e0045e0ca2fa0b07fe5c31d8cedb84d8e44763 26939d502f04f62ae93052476a5c4dcb2a24905f Mateo <maormeno@uc.cl> 1667175960 -0300	commit: workers absolutely fixed, results can be retrieved directly by calling the API method calculate_complexity_index

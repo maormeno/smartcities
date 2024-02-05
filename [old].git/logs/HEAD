@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 d3e0045e0ca2fa0b07fe5c31d8cedb84d8e44763 Mateo <maormeno@uc.cl> 1666999585 -0300	clone: from https://github.com/iic2173/proyecto-base-grupo-15.git
+d3e0045e0ca2fa0b07fe5c31d8cedb84d8e44763 d3e0045e0ca2fa0b07fe5c31d8cedb84d8e44763 Mateo <maormeno@uc.cl> 1667074308 -0300	checkout: moving from master to fix-calcualte-distance
+d3e0045e0ca2fa0b07fe5c31d8cedb84d8e44763 26939d502f04f62ae93052476a5c4dcb2a24905f Mateo <maormeno@uc.cl> 1667175960 -0300	commit: workers absolutely fixed, results can be retrieved directly by calling the API method calculate_complexity_index
+26939d502f04f62ae93052476a5c4dcb2a24905f d3e0045e0ca2fa0b07fe5c31d8cedb84d8e44763 Mateo <maormeno@uc.cl> 1667176586 -0300	checkout: moving from fix-calcualte-distance to master
+d3e0045e0ca2fa0b07fe5c31d8cedb84d8e44763 bdfd5571d998a33d8c2ecc73cd673d392b83eb13 Mateo <maormeno@uc.cl> 1667176589 -0300	pull: Fast-forward
+bdfd5571d998a33d8c2ecc73cd673d392b83eb13 bdfd5571d998a33d8c2ecc73cd673d392b83eb13 Mateo <maormeno@uc.cl> 1667176609 -0300	checkout: moving from master to fg
+bdfd5571d998a33d8c2ecc73cd673d392b83eb13 2195403e4fb27ce1e494bf935065f4140b89f218 Mateo <maormeno@uc.cl> 1667232804 -0300	commit: last E1 pending tasks resolved
+2195403e4fb27ce1e494bf935065f4140b89f218 bdfd5571d998a33d8c2ecc73cd673d392b83eb13 Mateo <maormeno@uc.cl> 1667235109 -0300	checkout: moving from fg to master
+bdfd5571d998a33d8c2ecc73cd673d392b83eb13 3e0f970621bd2a63c5f768eb9ca7570fb1d23600 Mateo <maormeno@uc.cl> 1667235111 -0300	pull: Fast-forward
+3e0f970621bd2a63c5f768eb9ca7570fb1d23600 3e0f970621bd2a63c5f768eb9ca7570fb1d23600 Mateo <maormeno@uc.cl> 1667235126 -0300	checkout: moving from master to cognito
+3e0f970621bd2a63c5f768eb9ca7570fb1d23600 87409f9200575dbf92266edc80784e04d5a59128 Mateo <maormeno@uc.cl> 1667350199 -0300	commit: FRONTEND COGNITO ALL DONE
+87409f9200575dbf92266edc80784e04d5a59128 937cdea290972b71864f4cc61c12a91203143668 Mateo <maormeno@uc.cl> 1667352128 -0300	commit: with build
+937cdea290972b71864f4cc61c12a91203143668 1550f1aad52aa6a134d315642999963c8c1d86bd Mateo <maormeno@uc.cl> 1667354575 -0300	commit: PDF Button
+1550f1aad52aa6a134d315642999963c8c1d86bd 6e74c29fb28bd67837ce5a7713dbcf4636403fd3 Mateo <maormeno@uc.cl> 1667441073 -0300	commit: pdf working
+6e74c29fb28bd67837ce5a7713dbcf4636403fd3 d3bf56592f3ad399f2105c92f5ac9c2c8002ea16 Mateo <maormeno@uc.cl> 1667441207 -0300	commit: pdf build done
+d3bf56592f3ad399f2105c92f5ac9c2c8002ea16 3e0f970621bd2a63c5f768eb9ca7570fb1d23600 Mateo <maormeno@uc.cl> 1668126982 -0300	checkout: moving from cognito to master
+3e0f970621bd2a63c5f768eb9ca7570fb1d23600 0db9b25507892a5896933fa81f8637a1088f8a86 Mateo <maormeno@uc.cl> 1668126985 -0300	pull: Fast-forward

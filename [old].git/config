@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/iic2173/proyecto-base-grupo-15.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "fix-calcualte-distance"]
+	remote = origin
+	merge = refs/heads/fix-calcualte-distance
+[branch "fg"]
+	remote = origin
+	merge = refs/heads/fg
+[branch "cognito"]
+	remote = origin
+	merge = refs/heads/cognito

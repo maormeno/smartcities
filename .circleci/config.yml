@@ -1,0 +1,51 @@
+version: 2.1
+
+orbs:
+  python: circleci/python@0.3.2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.9
+    steps:
+      - checkout
+      - run:
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r django/requirements.txt
+            pip install -r subscriber/requirements.txt
+
+  lint:
+    docker:
+      - image: circleci/python:3.9
+    steps:
+      - checkout
+      - run:
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r django/requirements.txt
+            pip install -r subscriber/requirements.txt
+            flake8 django/
+            flake8 subscriber/
+
+  test:
+    docker:
+      - image: circleci/python:3.9
+    steps:
+      - checkout
+      - run:
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r django/requirements.txt
+            pip install -r subscriber/requirements.txt
+            python django/test.py
+
+workflows:
+  main:
+    jobs:
+      - build
+      - lint
+      - test

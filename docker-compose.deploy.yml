@@ -1,0 +1,104 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - DJANGO_ALLOWED_HOSTS=${DOMAIN}
+    depends_on:
+      - db
+
+  proxy:
+    build:
+      context: ./docker/proxy
+    restart: always
+    depends_on:
+      - app
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - certbot-web:/vol/www
+      - proxy-dhparams:/vol/proxy
+      - certbot-certs:/etc/letsencrypt
+    environment:
+      - DOMAIN=${DOMAIN}
+  subscriber:
+    build:
+      context: ./subscriber
+    container_name: subscriber
+    ports:
+      - "8081:8081"
+    env_file:
+      - .env
+    environment:
+      - BROKER_PORT=9000
+
+
+  master:
+    build:
+      context: ./app/masterapp/
+          
+    container_name: master
+    command: python manage.py runserver 0.0.0.0:8080
+    volumes:
+        - ./app/masterapp/:/usr/src/app/
+    ports:
+        - "8080:8080"
+    environment:
+        - DEBUG=1
+        - DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+        - CELERY_BROKER=redis://redis:6379/0
+        - CELERY_BACKEND=redis://redis:6379/0
+    depends_on:
+        - redis
+  celery:
+    build:
+      context: ./app/masterapp/
+    container_name: celery
+    command: celery -A masterapp worker -l INFO
+    volumes:
+        - ./app/masterapp/:/usr/src/app/
+    environment:
+        - DEBUG=1
+        - DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+        - CELERY_BROKER=redis://redis:6379/0
+        - CELERY_BACKEND=redis://redis:6379/0
+    depends_on:
+        - master
+        - redis
+  redis:
+      image: "redis:alpine"
+  certbot:
+    build:
+      context: ./docker/certbot
+    command: echo "Skipping..."
+    environment:
+      - EMAIL=${ACME_DEFAULT_EMAIL}
+      - DOMAIN=${DOMAIN}
+    volumes:
+      - certbot-web:/vol/www
+      - certbot-certs:/etc/letsencrypt/
+    depends_on:
+      - proxy
+  db:
+    container_name: database
+    image: postgres
+    environment:
+      - POSTGRES_DB=emergencies
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=emergencies
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    ports:
+      - "5432:5432"
+volumes:
+  certbot-web:
+  proxy-dhparams:
+  certbot-certs:
+  postgres_data:
+  static_files:

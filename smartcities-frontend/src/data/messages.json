@@ -1,0 +1,580 @@
+{
+	"emergencies": [
+		{
+			"type": "alert",
+			"lat": -70.62898713522151,
+			"lon": -33.42274319502189,
+			"location": "Cerro san cristóbal",
+			"message": "Agressive treile invasion in progress",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": 11.593500276876847,
+			"lon": 48.144263188351324,
+			"location": "Munich",
+			"message": "Beer tsunami in progress, everyone is in danger. Driving is not advised",
+			"level": "150"
+		},
+		{
+			"type": "alert",
+			"lat": 139.60073581691344,
+			"lon": 35.75289429950404,
+			"location": "Tokyo city",
+			"message": "Lvl 53 Kaiju invasion in progress",
+			"level": "200"
+		},
+		{
+			"type": "alert",
+			"lat": -70.62898713522151,
+			"lon": -33.42274319502189,
+			"location": "Cerro san cristóbal",
+			"message": "Agressive treile invasion in progress",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": 139.60073581691344,
+			"lon": 35.75289429950404,
+			"location": "Tokyo city",
+			"message": "Lvl 53 Kaiju invasion in progress",
+			"level": "200"
+		},
+		{
+			"type": "alert",
+			"lat": 11.351666369445441,
+			"lon": 44.51713442284345,
+			"location": "Italy",
+			"message": "A Pineapple detected on one pizza. The whole pizza is on fire and this triggered an enormous riot",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": 11.593500276876847,
+			"lon": 48.144263188351324,
+			"location": "Munich",
+			"message": "Beer tsunami in progress, everyone is in danger. Driving is not advised",
+			"level": "150"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "info",
+			"lat": -70.62980232740348,
+			"lon": -33.455464109229844,
+			"location": "Irarrazaval",
+			"message": "Spaceship landing causes traffic jam",
+			"level": "200"
+		},
+		{
+			"type": "info",
+			"lat": -70.62980232740348,
+			"lon": -33.455464109229844,
+			"location": "Irarrazaval",
+			"message": "Spaceship landing causes traffic jam",
+			"level": "200"
+		},
+		{
+			"type": "alert",
+			"lat": 10.0,
+			"lon": 10.0,
+			"location": "Secret SCP site",
+			"message": "Sighting of SCP-049, active and on the prowl",
+			"level": "850"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": 30.326225064810984,
+			"lon": 59.88736370689947,
+			"location": "San petersburgo",
+			"message": "Lack of vodka supplies in the area triggers imminent drought",
+			"level": "30"
+		},
+		{
+			"type": "alert",
+			"lat": 11.593500276876847,
+			"lon": 48.144263188351324,
+			"location": "Munich",
+			"message": "Beer tsunami in progress, everyone is in danger. Driving is not advised",
+			"level": "150"
+		},
+		{
+			"type": "alert",
+			"lat": 30.326225064810984,
+			"lon": 59.88736370689947,
+			"location": "San petersburgo",
+			"message": "Lack of vodka supplies in the area triggers imminent drought",
+			"level": "30"
+		},
+		{
+			"type": "alert",
+			"lat": -70.62898713522151,
+			"lon": -33.42274319502189,
+			"location": "Cerro san cristóbal",
+			"message": "Agressive treile invasion in progress",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": 11.593500276876847,
+			"lon": 48.144263188351324,
+			"location": "Munich",
+			"message": "Beer tsunami in progress, everyone is in danger. Driving is not advised",
+			"level": "150"
+		},
+		{
+			"type": "alert",
+			"lat": -70.61539413106406,
+			"lon": -18.099098693847655,
+			"location": "PUC, CSJ",
+			"message": "Orc attack, with trebuchets and molotovs",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": -70.61539413106406,
+			"lon": -18.099098693847655,
+			"location": "PUC, CSJ",
+			"message": "Orc attack, with trebuchets and molotovs",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": -70.59708397196718,
+			"lon": -33.45505029128685,
+			"location": "Metro chile-españa",
+			"message": "Critical lack of starbucks drinks",
+			"level": "50"
+		},
+		{
+			"type": "alert",
+			"lat": -1.1553317290770795,
+			"lon": 52.93582804343926,
+			"location": "Nottingham",
+			"message": "Faerie fires detected, and agressive gnomes are on the move",
+			"level": "80"
+		},
+		{
+			"type": "alert",
+			"lat": -70.62898713522151,
+			"lon": -33.42274319502189,
+			"location": "Cerro san cristóbal",
+			"message": "Agressive treile invasion in progress",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": -70.62898713522151,
+			"lon": -33.42274319502189,
+			"location": "Cerro san cristóbal",
+			"message": "TABLITA 2 PERRO",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": 11.593500276876847,
+			"lon": 48.144263188351324,
+			"location": "Munich",
+			"message": "Beer tsunami in progress, everyone is in danger. Driving is not advised",
+			"level": "150"
+		},
+		{
+			"type": "alert",
+			"lat": 139.60073581691344,
+			"lon": 35.75289429950404,
+			"location": "Tokyo city",
+			"message": "Lvl 53 Kaiju invasion in progress",
+			"level": "200"
+		},
+		{
+			"type": "alert",
+			"lat": -70.62898713522151,
+			"lon": -33.42274319502189,
+			"location": "Cerro san cristóbal",
+			"message": "Agressive treile invasion in progress",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": 139.60073581691344,
+			"lon": 35.75289429950404,
+			"location": "Tokyo city",
+			"message": "Lvl 53 Kaiju invasion in progress",
+			"level": "200"
+		},
+		{
+			"type": "alert",
+			"lat": 11.351666369445441,
+			"lon": 44.51713442284345,
+			"location": "Italy",
+			"message": "A Pineapple detected on one pizza. The whole pizza is on fire and this triggered an enormous riot",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": 11.593500276876847,
+			"lon": 48.144263188351324,
+			"location": "Munich",
+			"message": "Beer tsunami in progress, everyone is in danger. Driving is not advised",
+			"level": "150"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "info",
+			"lat": -70.62980232740348,
+			"lon": -33.455464109229844,
+			"location": "Irarrazaval",
+			"message": "Spaceship landing causes traffic jam",
+			"level": "200"
+		},
+		{
+			"type": "info",
+			"lat": -70.62980232740348,
+			"lon": -33.455464109229844,
+			"location": "Irarrazaval",
+			"message": "Spaceship landing causes traffic jam",
+			"level": "200"
+		},
+		{
+			"type": "alert",
+			"lat": 10.0,
+			"lon": 10.0,
+			"location": "Secret SCP site",
+			"message": "Sighting of SCP-049, active and on the prowl",
+			"level": "850"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": 30.326225064810984,
+			"lon": 59.88736370689947,
+			"location": "San petersburgo",
+			"message": "Lack of vodka supplies in the area triggers imminent drought",
+			"level": "30"
+		},
+		{
+			"type": "alert",
+			"lat": 11.593500276876847,
+			"lon": 48.144263188351324,
+			"location": "Munich",
+			"message": "Beer tsunami in progress, everyone is in danger. Driving is not advised",
+			"level": "150"
+		},
+		{
+			"type": "alert",
+			"lat": 30.326225064810984,
+			"lon": 59.88736370689947,
+			"location": "San petersburgo",
+			"message": "Lack of vodka supplies in the area triggers imminent drought",
+			"level": "30"
+		},
+		{
+			"type": "alert",
+			"lat": -70.62898713522151,
+			"lon": -33.42274319502189,
+			"location": "Cerro san cristóbal",
+			"message": "Agressive treile invasion in progress",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": 11.593500276876847,
+			"lon": 48.144263188351324,
+			"location": "Munich",
+			"message": "Beer tsunami in progress, everyone is in danger. Driving is not advised",
+			"level": "150"
+		},
+		{
+			"type": "alert",
+			"lat": -70.61539413106406,
+			"lon": -18.099098693847655,
+			"location": "PUC, CSJ",
+			"message": "Orc attack, with trebuchets and molotovs",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": -70.61539413106406,
+			"lon": -18.099098693847655,
+			"location": "PUC, CSJ",
+			"message": "Orc attack, with trebuchets and molotovs",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": -70.59708397196718,
+			"lon": -33.45505029128685,
+			"location": "Metro chile-españa",
+			"message": "Critical lack of starbucks drinks",
+			"level": "50"
+		},
+		{
+			"type": "alert",
+			"lat": -1.1553317290770795,
+			"lon": 52.93582804343926,
+			"location": "Nottingham",
+			"message": "Faerie fires detected, and agressive gnomes are on the move",
+			"level": "80"
+		},
+		{
+			"type": "alert",
+			"lat": -70.62898713522151,
+			"lon": -33.42274319502189,
+			"location": "Cerro san cristóbal",
+			"message": "Agressive treile invasion in progress",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": -70.62898713522151,
+			"lon": -33.42274319502189,
+			"location": "Cerro san cristóbal",
+			"message": "TABLITA 3 PERRO",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": 11.593500276876847,
+			"lon": 48.144263188351324,
+			"location": "Munich",
+			"message": "Beer tsunami in progress, everyone is in danger. Driving is not advised",
+			"level": "150"
+		},
+		{
+			"type": "alert",
+			"lat": 139.60073581691344,
+			"lon": 35.75289429950404,
+			"location": "Tokyo city",
+			"message": "Lvl 53 Kaiju invasion in progress",
+			"level": "200"
+		},
+		{
+			"type": "alert",
+			"lat": -70.62898713522151,
+			"lon": -33.42274319502189,
+			"location": "Cerro san cristóbal",
+			"message": "Agressive treile invasion in progress",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": 139.60073581691344,
+			"lon": 35.75289429950404,
+			"location": "Tokyo city",
+			"message": "Lvl 53 Kaiju invasion in progress",
+			"level": "200"
+		},
+		{
+			"type": "alert",
+			"lat": 11.351666369445441,
+			"lon": 44.51713442284345,
+			"location": "Italy",
+			"message": "A Pineapple detected on one pizza. The whole pizza is on fire and this triggered an enormous riot",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": 11.593500276876847,
+			"lon": 48.144263188351324,
+			"location": "Munich",
+			"message": "Beer tsunami in progress, everyone is in danger. Driving is not advised",
+			"level": "150"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "alert",
+			"lat": -72.90763797925051,
+			"lon": -40.590332899837506,
+			"location": "Osorno",
+			"message": "Landslide in progress caused by rogue chilote sorcerer",
+			"level": "500"
+		},
+		{
+			"type": "info",
+			"lat": -70.62980232740348,
+			"lon": -33.455464109229844,
+			"location": "Irarrazaval",
+			"message": "Spaceship landing causes traffic jam",
+			"level": "200"
+		},
+		{
+			"type": "alert",
+			"lat": 30.326225064810984,
+			"lon": 59.88736370689947,
+			"location": "San petersburgo",
+			"message": "Lack of vodka supplies in the area triggers imminent drought",
+			"level": "30"
+		},
+		{
+			"type": "alert",
+			"lat": 11.593500276876847,
+			"lon": 48.144263188351324,
+			"location": "Munich",
+			"message": "Beer tsunami in progress, everyone is in danger. Driving is not advised",
+			"level": "150"
+		},
+		{
+			"type": "alert",
+			"lat": 30.326225064810984,
+			"lon": 59.88736370689947,
+			"location": "San petersburgo",
+			"message": "Lack of vodka supplies in the area triggers imminent drought",
+			"level": "30"
+		},
+		{
+			"type": "alert",
+			"lat": -70.62898713522151,
+			"lon": -33.42274319502189,
+			"location": "Cerro san cristóbal",
+			"message": "Agressive treile invasion in progress",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": 11.593500276876847,
+			"lon": 48.144263188351324,
+			"location": "Munich",
+			"message": "Beer tsunami in progress, everyone is in danger. Driving is not advised",
+			"level": "150"
+		},
+		{
+			"type": "alert",
+			"lat": -70.61539413106406,
+			"lon": -18.099098693847655,
+			"location": "PUC, CSJ",
+			"message": "Orc attack, with trebuchets and molotovs",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": -70.61539413106406,
+			"lon": -18.099098693847655,
+			"location": "PUC, CSJ",
+			"message": "Orc attack, with trebuchets and molotovs",
+			"level": "100"
+		},
+		{
+			"type": "alert",
+			"lat": -70.59708397196718,
+			"lon": -33.45505029128685,
+			"location": "Metro chile-españa",
+			"message": "Critical lack of starbucks drinks",
+			"level": "50"
+		},
+		{
+			"type": "alert",
+			"lat": -1.1553317290770795,
+			"lon": 52.93582804343926,
+			"location": "Nottingham",
+			"message": "Faerie fires detected, and agressive gnomes are on the move",
+			"level": "80"
+		},
+		{
+			"type": "alert",
+			"lat": -70.62898713522151,
+			"lon": -33.42274319502189,
+			"location": "Cerro san cristóbal",
+			"message": "Agressive treile invasion in progress",
+			"level": "100"
+		}
+	]
+}

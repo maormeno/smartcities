@@ -1,0 +1,17 @@
+# pack-refs with: peeled fully-peeled sorted 
+960b7a30bb4a6e19511acca98f1e3ad9d2ec970b refs/remotes/origin/api-master-con
+3d12faa2e8b9e90d0419ffd46774d403dc24fa78 refs/remotes/origin/app-maestra
+e8f46e0889f2f97a1c3628c7a4596417834a4e9e refs/remotes/origin/change-db
+b5761a6bb68a20395ce2d06165cb483dfeb98566 refs/remotes/origin/development
+e16671dc247ccf29baf5045fa0dfe86373afc4ed refs/remotes/origin/emergency-view
+d603786ab2d3f9909fa1c1cb7290ae1179da4728 refs/remotes/origin/fix-services
+b8f0cd30b7e73c488d07b444a6bed2b0eea567ed refs/remotes/origin/front
+bb9a8a38650d1cc05f56381b6a1f775ef176cf45 refs/remotes/origin/front-deploy
+4816147ca7a867b0604878227f6d58cd7523f18f refs/remotes/origin/last-users
+d3e0045e0ca2fa0b07fe5c31d8cedb84d8e44763 refs/remotes/origin/master
+fa2eadfc8425bf366d0f4f53a23a1d01163a8e5b refs/remotes/origin/new-user-endpoints
+d553c662c935e35a56fdab4400fa45edcbdf870b refs/remotes/origin/newbranch
+05ec24ac91ff62ccfa531b2ca158338686559a53 refs/remotes/origin/rest-api
+b6cb48c7af5c5215de1f92407ccca39ce7bf54fd refs/remotes/origin/rest-api-endpoints
+e389bb9544951b265a0631de0b0dc291752bae84 refs/remotes/origin/user-endpoints
+32aee1fbad8c32aa0451be7ccde769e36d846898 refs/remotes/origin/users-front

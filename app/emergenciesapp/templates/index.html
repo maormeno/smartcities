@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Received Emergencies</title>
+</head>
+<body>
+    <h1>Received Emergencies</h1>
+    <table>
+        <tr>
+            <th>N°</th>
+            <th>Type</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Location</th>
+            <th>Message</th>
+            <th>Level</th>
+        </tr>
+        {% for message in messages %}
+        <tr>
+            <td>{{ forloop.counter }}</td>
+            <td>{{ message.type }}</td>
+            <td>{{ message.lat }}</td>
+            <td>{{ message.lon }}</td>
+            <td>{{ message.location }}</td>
+            <td>{{ message.message }}</td>
+            <td>{{ message.level }}</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+</body>
+</html>
